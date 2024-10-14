@@ -9,11 +9,11 @@ with open ('requirements.txt') as f:
 setup(
     name='my-image-processing',
     version='0.0.3',
-    author='Wilson Souza',
+    author='Joao Nolasco',
     description='Image processing package using Skimage',
     long_description=page_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/wilsondesouza/image-processing-package',
+    url='https://github.com/joaopnolasco/Processamentoimagem'
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.5',
